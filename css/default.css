@@ -1296,11 +1296,3 @@ img {
 ::-webkit-scrollbar-thumb:hover {
   background: #717275;
 }
-
-.titfon {
-  font-size: 28px !important;
-}
-
-.nepfont {
-  font-family: 'Mukta', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
-}
