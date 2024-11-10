@@ -177,10 +177,12 @@ body {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -218,10 +220,12 @@ body {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -589,13 +593,11 @@ body {
 }
 
 .profile-small-title {
-  border-right: 1px solid var(--border-color);
+
   color: var(--secondary-color);
   font-weight: var(--font-weight-bold);
   min-width: 140px;
-  margin-right: 10px;
   padding: 13px 30px;
-  display: inline-block;
 }
 
 .profile-body p {
@@ -1283,14 +1285,22 @@ img {
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 1px grey;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #717275; 
+  background: #717275;
   border-radius: 1.3rem;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #717275; 
+  background: #717275;
+}
+
+.titfon {
+  font-size: 28px !important;
+}
+
+.nepfont {
+  font-family: 'Mukta', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
