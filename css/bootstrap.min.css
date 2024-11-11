@@ -4589,7 +4589,8 @@ fieldset:disabled .btn {
     flex-direction: column;
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none
+    list-style: none;
+    align-items: flex-end;
 }
 
 .navbar-nav .nav-link {
@@ -4608,7 +4609,6 @@ fieldset:disabled .btn {
 
 .navbar-collapse {
     flex-basis: 100%;
-    flex-grow: 1;
     align-items: center
 }
 
@@ -8151,7 +8151,6 @@ fieldset:disabled .btn {
 
 .mx-auto {
     margin-right: auto !important;
-    margin-left: auto !important
 }
 
 .my-0 {

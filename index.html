@@ -68,6 +68,26 @@
         .nepfont {
             font-family: 'Mukta', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
         }
+
+        @media (max-width: 768px) {
+            .digital {
+                padding: 8px 55px !important;
+            }
+
+            .intro {
+                font-size: 36px !important;
+                margin-left: .5px !important;
+            }
+
+            .boxrow {
+                padding: 10px;
+                padding-right: 30px;
+            }
+
+            .titfon {
+                font-size: 25px !important;
+            }
+        }
     </style>
 
 
@@ -122,19 +142,15 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+           
 
             <a href="./" class="navbar-brand mx-auto mx-lg-0">Benup</a>
 
-            <div class="d-flex align-items-center d-lg-none">
-                <a class="custom-btn btn" href="#section_5">
-                    Reach out Now!
-                </a>
-            </div>
-
+         
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-lg-5">
                     <li class="nav-item">
@@ -160,11 +176,6 @@
 
 
 
-                <div class="d-lg-flex align-items-center d-none ms-auto">
-                    <a class="custom-btn btn" href="#section_5">
-                        Reach out Now!
-                    </a>
-                </div>
             </div>
 
         </div>
@@ -177,20 +188,21 @@
                     <div class="col-lg-7 col-12">
                         <div class="hero-text">
                             <div class="hero-title-wrap d-flex align-items-center mb-4">
-                                <img src="images/icon.png"
-                                    class="avatar-image avatar-image-large img-fluid" alt="Benup Bhattarai">
+                                <img src="images/icon.png" class="avatar-image avatar-image-large img-fluid"
+                                    alt="Benup Bhattarai">
 
                                 <h1 class="hero-title ms-3 mb-0 titfon">Namaste Everyone!</h1>
                             </div>
 
-                            <h2 class="mb-4"> Welcome to my digital space!</h2>
+                            <h2 class="mb-4 digital"> Welcome to my digital space!</h2>
                             <p class="mb-4"><a class="custom-btn btn custom-link" href="#section_2">Let's begin</a></p>
                         </div>
                     </div>
 
                     <div class="col-lg-5 col-12 position-relative">
                         <div class="hero-image-wrap"></div>
-                        <img style="margin-top: 60px;" src="images/benup.png" class="hero-image img-fluid" alt="Benup Bhattarai">
+                        <img style="margin-top: 60px;" src="images/benup.png" class="hero-image img-fluid"
+                            alt="Benup Bhattarai">
                     </div>
 
                 </div>
@@ -218,7 +230,7 @@
                                 <img src="images/benup-2.jpg" alt="Benup Bhattarai">
                                 <img src="images/benup-3.jpg" alt="Benup Bhattarai">
                                 <img src="images/benup-4.jpg" alt="Benup Bhattarai">
-                               
+
                             </div>
                         </div>
 
@@ -231,7 +243,7 @@
                         <div class="about-thumb">
 
                             <div class="section-title-wrap d-flex justify-content-end align-items-center mb-4">
-                                <h2 class="text-white  mb-0" style="text-align: center;">Introduction &nbsp;
+                                <h2 class="text-white  mb-0 intro" style="text-align: center;">Introduction &nbsp;
                                 </h2>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" style="color: white;"
                                     fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
@@ -326,7 +338,7 @@
 
                     <div class="col-lg-6 col-12 mt-5 mt-lg-0">
                         <div class="about-thumb">
-                            <div class="row">
+                            <div class="row boxrow">
                                 <div class="col-lg-6 col-6 featured-border-bottom py-2">
                                     <strong class="featured-numbers"
                                         style="font-size: 27px; margin-bottom: 5px;">Skills</strong>
@@ -544,7 +556,7 @@
                     <div class="col-lg-10 col-12 mx-auto">
                         <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
 
-                            <h2 class="text-white ms-4 mb-0">Experience</h2> &nbsp; &nbsp;
+                            <h2 class="text-white ms-4 mb-0 intro">Experience</h2> &nbsp; &nbsp;
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
                                 style="color:white;" class="bi bi-person-workspace" viewBox="0 0 16 16">
                                 <path
@@ -637,7 +649,7 @@
                     <div class="col-lg-10 col-12 mx-auto">
                         <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
 
-                            <h2 class="text-white ms-4 mb-0">Achievements</h2> &nbsp; &nbsp;
+                            <h2 class="text-white ms-4 mb-0 intro">Achievements</h2> &nbsp; &nbsp;
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 576 512">
                                 <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                                 <path fill="#FFFFFF"
@@ -735,7 +747,7 @@
 
                     <div class="col-lg-8 col-md-8 col-12 ms-auto">
                         <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
-                            <h2 class="text-white ms-4 mb-0">Contact </h2> &nbsp; &nbsp; &nbsp;
+                            <h2 class="text-white ms-4 mb-0 intro">Contact </h2> &nbsp; &nbsp; &nbsp;
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" style="color: white;"
                                 fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
                                 <path
